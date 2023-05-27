@@ -2,24 +2,36 @@
 An Arch MakePKG to build Wine compatable with Affinity V2 suite
 
 ## On different distribution use toolbox and do the following:
-
-### Prepare container
+Create Arch container
 ```
 toolbox create --image quay.io/toolbx-images/archlinux-toolbox
+```
+Enter Arch container
+```
 toolbox enter archlinux-toolbox
+```
+Clone repository
+```
 git clone https://github.com/EnfrigFalco/makepkg-affinity.git
+```
+Enter folder
+```
 cd makepkg-affinity
 ```
-#### Enable multilib in pacman configuration file
+Install nano
 ```
 sudo pacman -Sy nano
+```
+Use nano to edit pacman configuration file
+```
 sudo nano /etc/pacman.conf
 ```
-Paste the following:
+Paste the following in pacman.conf:
 ```
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
-### Build
+Build Wine with:
+```
 makepkg
 ```
