@@ -1,7 +1,7 @@
 # makepkg-affinity
 An Arch MakePKG to build Wine compatable with Affinity V2 suite
 
-## On different distribution use toolbox and do the following:
+## If using a different distribution use Toolbox and enter the following prompts:
 Create Arch container
 ```
 toolbox create --image quay.io/toolbx-images/archlinux-toolbox
