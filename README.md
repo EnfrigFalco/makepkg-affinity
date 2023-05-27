@@ -1,5 +1,5 @@
 # makepkg-affinity
-An Arch makepkg script to automate the building of a Wine prefix compatable to Serif Affinity V2 suite.
+An Arch makepkg script to automate the building of a Wine prefix compatable to Serif Affinity V2 suite. Made possible by the efforts of to Wanesty and Grunt. More information at https://forum.affinity.serif.com/index.php?/topic/182758-affinity-suite-v204-on-linux-wine/
 
 ## If using a different distribution use Toolbox and enter the following prompts:
 Create Arch container
