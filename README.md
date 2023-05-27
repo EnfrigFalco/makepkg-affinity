@@ -18,9 +18,12 @@ Enter folder
 ```
 cd makepkg-affinity-v2
 ```
-Install nano
+Install build packages
 ```
-sudo pacman -Sy nano
+chmod +x arch-wine-dependencies.sh
+```
+```
+./arch-wine-dependencies.sh
 ```
 Use nano to edit pacman configuration file
 ```
