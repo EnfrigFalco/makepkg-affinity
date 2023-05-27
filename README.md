@@ -16,7 +16,7 @@ git clone https://github.com/EnfrigFalco/makepkg-affinity-v2.git
 ```
 Enter folder
 ```
-cd makepkg-affinity
+cd makepkg-affinity-v2
 ```
 Install nano
 ```
