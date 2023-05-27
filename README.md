@@ -6,6 +6,8 @@ If on different distribution build with the following:
 ```
 toolbox create --image quay.io/toolbx-images/archlinux-toolbox
 toolbox enter archlinux-toolbox
+git clone https://github.com/EnfrigFalco/makepkg-affinity.git
+cd makepkg-affinity
 sudo pacman -Sy nano
 
 # Enable multilib
