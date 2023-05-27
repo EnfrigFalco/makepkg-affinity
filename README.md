@@ -12,7 +12,7 @@ toolbox enter archlinux-toolbox
 ```
 Clone repository
 ```
-git clone https://github.com/EnfrigFalco/makepkg-affinity.git
+git clone https://github.com/EnfrigFalco/makepkg-affinity-v2.git
 ```
 Enter folder
 ```
