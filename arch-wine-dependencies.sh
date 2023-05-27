@@ -53,6 +53,7 @@ libxrandr \
 libxrender \
 mesa \
 mingw-w64-gcc \
+nano \
 ocl-icd \
 opencl-headers \
 opencl-icd-loader \
