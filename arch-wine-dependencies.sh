@@ -38,4 +38,6 @@ sane \
 libgphoto2 \
 ffmpeg \
 samba \
-opencl-headers
+opencl-headers \
+lib32-gettext \
+lib32-libpcap
