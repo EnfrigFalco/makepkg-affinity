@@ -1,15 +1,12 @@
 sudo pacman -Sy alsa-lib \
-dbus \
 desktop-file-utils \
 ffmpeg \
 fontconfig \
 freetype2 \
 giflib \
-gnutls \
 gst-plugins-base-libs \
 gstreamer \
 gtk3 \
-krb5 \
 lib32-alsa-lib \
 lib32-fontconfig \
 lib32-freetype2 \
@@ -37,15 +34,12 @@ lib32-v4l-utils \
 lib32-vulkan-icd-loader \
 libcups \
 libgphoto2 \
-libpcap \
 libpulse \
 libunwind \
 libusb \
 libva \
-libx11 \
 libxcomposite \
 libxcursor \
-libxext \
 libxfixes \
 libxi \
 libxinerama \
@@ -61,7 +55,6 @@ samba \
 sane \
 sdl2 \
 smbclient \
-systemd \
 v4l-utils \
 vulkan-headers \
 vulkan-icd-loader
