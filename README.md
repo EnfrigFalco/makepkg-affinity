@@ -18,12 +18,9 @@ Enter folder
 ```
 cd makepkg-affinity-v2
 ```
-Install build packages
+Install nano:
 ```
-chmod +x arch-wine-dependencies.sh
-```
-```
-./arch-wine-dependencies.sh
+sudo pacman -Sy nano
 ```
 Use nano to edit pacman configuration file
 ```
@@ -34,6 +31,15 @@ Paste the following in pacman.conf:
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
+
+Install build packages
+```
+chmod +x arch-wine-dependencies.sh
+```
+```
+./arch-wine-dependencies.sh
+```
+
 Build Wine with:
 ```
 makepkg
