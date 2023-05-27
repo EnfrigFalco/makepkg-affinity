@@ -10,15 +10,16 @@ toolbox enter archlinux-toolbox
 git clone https://github.com/EnfrigFalco/makepkg-affinity.git
 cd makepkg-affinity
 sudo pacman -Sy nano
-
 ```
-#### Enable multilib
+#### Enable multilib in pacman configuration file
 ```
 sudo nano /etc/pacman.conf
 ```
-    [multilib]
-    Include = /etc/pacman.d/mirrorlist
-
+Paste the following:
+```
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
 ### Build
 makepkg
 ```
